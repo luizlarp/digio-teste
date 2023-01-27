@@ -13,11 +13,15 @@ protocol CategoryServiceProtocol {
 
 class CategoryMockService: CategoryServiceProtocol {
     func fetch(callBack: @escaping (Result<Category, HandleError>) -> Void) {
-        guard let parseCategory = try? Category.parse(jsonFile: "CategoryList") else {
+        do {
+            guard let parseCategory = try Category.parse(jsonFile: "CategoryList") else {
+                callBack(.failure(.noData))
+                return
+            }
+            callBack(.success(parseCategory))
+        } catch {
             callBack(.failure(.erroParseData))
-            return
         }
-        callBack(.success(parseCategory))
     }
 }
 

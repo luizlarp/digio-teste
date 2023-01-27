@@ -386,6 +386,7 @@
 				TargetAttributes = {
 					2530BBB6298072E80016D3BD = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = "";
 					};
 					2530BBCC298072EC0016D3BD = {
 						CreatedOnToolsVersion = 14.2;
@@ -744,7 +745,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -775,7 +776,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
