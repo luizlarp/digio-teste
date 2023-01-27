@@ -14,9 +14,11 @@ Este teste é apresentado aos candidatos às vagas de iOS Developer para avaliar
 Consideraçoes finais:
 O projeto foi desenvolvido, utilizando a linguagem com o mínimo de dependência ou frameworks externos.
 Com o intuito de mostrar a proeficiência na linguagem. 
+Os itens a seguir não foram adicionados:
+● Fastlne
+● UITest
 * Julguei ser pertinente NÃO INCLUIR, para não alegar conhecimento em algo que não tenho experiencia de uso.
-  ● Fastlne
-  ● UITest
+  
 
 
    
